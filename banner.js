@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const autoCloseTimer = setTimeout(() => {
         banner.style.display = "none";
-    }, 8000);
+    }, 30000);
 
     const closeBanner = () => {
         banner.style.display = "none";

@@ -203,7 +203,8 @@
                         <label for="consent">
                             <span>הריני מאשר את </span>
                             <a id="privacyLicenseFormBtn" aria-label="תנאי שימוש ופרטיות"
-                                aria-controls="privacyLicenseModal" aria-expanded="false" onclick="event.preventDefault(); event.stopPropagation()">תנאי השימוש והפרטיות</a>
+                                aria-controls="privacyLicenseModal" aria-expanded="false"
+                                onclick="event.preventDefault(); event.stopPropagation()">תנאי השימוש והפרטיות</a>
                         </label>
 
                     </div>
@@ -355,9 +356,18 @@
         </div>
     </footer>
 
+    <!-- Banner Overlay -->
+    <div id="promo-banner" class="promo-banner" role="dialog" aria-modal="true" aria-labelledby="promoBannerTitle">
+        <div class="promo-content" tabindex="-1">
+            <button class="promo-close" aria-label="סגור">&times;</button>
+            <img src="assets/images/tishreyHolidays.png" alt="מודעת חגי תשרי" id="promoBannerTitle">
+        </div>
+    </div>
+
     <!-- Scripts -->
     <script src="accessibilityModal.js"></script>
     <script src="sendMail.js"></script>
+    <script src="banner.js"></script>
 
 </body>
 
